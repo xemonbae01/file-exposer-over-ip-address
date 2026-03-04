@@ -30,6 +30,7 @@ A lightweight and easy-to-use file and media server that exposes your local stor
 ```bash
 git clone https://github.com/xemonbae01/file-exposer-over-ip-address.git
 cd file-exposer-over-ip-address
+termux-setup-storage
 npm i
 node expose.js
 ```
