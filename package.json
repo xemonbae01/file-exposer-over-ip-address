@@ -1,0 +1,19 @@
+{
+  "name": "file-exposer",
+  "version": "1.0.0",
+  "description": "A simple Node.js file and media exposer server",
+  "main": "expose.js",
+  "scripts": {
+    "start": "node expose.js"
+  },
+  "author": "Redwan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mime-types": "^2.1.35",
+    "serve-index": "^1.9.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
