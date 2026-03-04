@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#tried once in my virtual device it worked there idk if it will work on regular Android devices! so skip this 
+#this setup comes with risk of detection so if target is dumb then only use it
 pkg update -y
 pkg upgrade -y
 pkg install x11-repo -y
