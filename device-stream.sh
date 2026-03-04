@@ -1,6 +1,7 @@
 #!/bin/bash
 # Tested on a virtual Android environment; may not work on all physical Android devices.
-# Use at your own risk. This setup may be detectable depending on your environment.pkg update -y
+# Use at your own risk. This setup may be detectable depending on your environment.
+pkg update -y
 pkg upgrade -y
 pkg install x11-repo -y
 pkg update -y
